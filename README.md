@@ -1,6 +1,6 @@
 # MERN ECOMMERCE AMAZON
 
-![amazona](/frontend/public/images/amazona.jpg)
+![amazona](/frontend/public/images/amazona.png)
 
 ## Demo Website
 
