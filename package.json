@@ -1,7 +1,7 @@
 {
   "name": "amazona",
   "version": "1.0.0",
-  "description": "# Lessons",
+  "description": "amazon-like ecommerce website",
   "main": "index.js",
   "scripts": {
     "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/basir/mern-amazona.git"
+    "url": "git+https://github.com/delmond147/mern-ecommerce-amazon.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Delmond Bongha",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/basir/mern-amazona/issues"
+    "url": "https://github.com/delmond147/mern-ecommerce-amazon/issues"
   },
-  "homepage": "https://github.com/basir/mern-amazona#readme"
+  "homepage": "https://github.com/delmond147/mern-ecommerce-amazon#readme"
 }

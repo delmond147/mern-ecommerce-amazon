@@ -69,8 +69,8 @@ function App() {
               ? 'site-container active-cont d-flex flex-column full-box'
               : 'site-container active-cont d-flex flex-column'
             : fullBox
-            ? 'site-container d-flex flex-column full-box'
-            : 'site-container d-flex flex-column'
+              ? 'site-container d-flex flex-column full-box'
+              : 'site-container d-flex flex-column'
         }
       >
         <ToastContainer position="bottom-center" limit={1} />
@@ -266,7 +266,7 @@ function App() {
           </Container>
         </main>
         <footer>
-          <div className="text-center">All rights reserved</div>
+          <div className="text-center">&copy; All rights reserved || Dgitech 2022</div>
         </footer>
       </div>
     </BrowserRouter>

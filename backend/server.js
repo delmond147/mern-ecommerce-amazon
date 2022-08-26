@@ -1,6 +1,7 @@
 import express from 'express';
 import path from 'path';
-import mongoose from 'mongoose';
+import { connectDB } from './config/db.js'
+import colors from 'colors'
 import dotenv from 'dotenv';
 import seedRouter from './routes/seedRoutes.js';
 import productRouter from './routes/productRoutes.js';
@@ -10,14 +11,7 @@ import uploadRouter from './routes/uploadRoutes.js';
 
 dotenv.config();
 
-mongoose
-  .connect(process.env.MONGODB_URI)
-  .then(() => {
-    console.log('connected to db');
-  })
-  .catch((err) => {
-    console.log(err.message);
-  });
+connectDB()
 
 const app = express();
 
