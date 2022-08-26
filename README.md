@@ -1,4 +1,4 @@
-# MERN AMAZONA
+# MERN ECOMMERCE AMAZON
 
 ![amazona](/frontend/public/images/amazona.jpg)
 
