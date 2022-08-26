@@ -9,8 +9,8 @@
 ### 1. Clone repo
 
 ```
-$ git clone git@github.com:basir/mern-amazona.git
-$ cd mern-amazona
+$ git clone https://github.com/delmond147/mern-ecommerce-amazon.git
+$ cd mern-ecommerce-amazon
 ```
 
 ### 2. Create .env File
