@@ -15,7 +15,7 @@ $ cd mern-ecommerce-amazon
 
 ### 2. Create .env File
 
-- duplicate .env.example in backend folder and rename it to .env
+- .env in backend folder
 
 ### 3. Setup MongoDB
 
