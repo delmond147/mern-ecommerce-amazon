@@ -1,7 +1,7 @@
 {
-  "name": "amazona",
+  "name": "mern-amazona-master",
   "version": "1.0.0",
-  "description": "amazon-like ecommerce website",
+  "description": "E-commernce website",
   "main": "index.js",
   "scripts": {
     "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
